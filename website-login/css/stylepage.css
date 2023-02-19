@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../image/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.blog-header {
+    width:100%;
+    position: relative;
+}
+
+.blog-header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.blog-header .logo {
+    color: rgba(255, 255, 255, 0.822);
+    font-size: 26px;
+    font-weight: bold;
+    height: 72px;
+    margin-left: 20px;
+    margin-top: 26px;
+}
+
+.blog-header .main-nav {
+    display: flex;
+    flex-direction: row;
+    font-size: 17px;
+    margin-left: 70px;
+    margin-top: 15px;
+}
+.text{
+    color: #1A91F5;
+}
+.dot{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    display: inline-block;
+    border: 1px solid #1A91F5;
+    background-color: #1A91F5;
+    margin-top:30px;
+    margin-left: 25px;
+}
+
+.blog-header .main-nav li a {
+    display: flex;
+    justify-content: center;
+    accent-color: center;
+    height: 72px;
+    position: relative;
+    color: rgb(161, 159, 159);
+    padding: 25px 30px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    transition: 0.3s;
+
+}
+.box{
+    margin-left: 25px;
+}
+.box h5{
+    color:white;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    font-size: 20px;
+}
+.box h1{
+    color: white;
+    margin-bottom: 15px;
+    font-size: 50px;
+}
+.box p{
+    font-size: 18px;
+    color: white;
+    margin-bottom: 20px;
+    
+}
+.box-signup{
+  width:55%;
+}
+input{
+    text-align: left;
+}
+.box-signup>div{
+    margin-left: 3%;
+    display:flex;
+    flex-direction: row;
+}
+#fname ,#lname{
+    margin-left: 5px;
+    width: 30%;
+    height:40px;
+    border-radius: 10px;
+    background: #55546396;
+    border: 3px solid #55546396;
+}
+#email,#password{
+    margin-left: 5px;
+    width:61%;
+    height:40px;
+    border-radius: 10px;
+    background: #55546396;
+    border: 3px solid #55546396;
+    margin-top: 10px;
+}
+.send{
+    margin-left: 25px;
+    width: 60%;
+}
+.send>input{
+    width: 100px;
+    height: 35px;
+    border-radius: 15px;
+    margin-top: 15px;
+    text-align: center;
+    color: white;
+    font-weight:bold;
+}
+#btn1{
+    background-color: #555463;
+    border: 2px solid #555463;
+    margin-left: 5px;
+    width: 25%;
+    height:45px;
+    border-radius: 20px;
+
+}
+#btn2{
+    background-color: #1A91F5;
+    border: 2px solid #1A91F5;
+    margin-left: 10px;
+    width: 25%;
+    height:45px;
+    border-radius: 20px;
+
+}
+#lname1,#fname1,#email1,#password1{
+    border: none;
+    background: none;
+}
+#email,#password{
+    width:60%;
+    margin-left: 24px;
+}
+.fa-user{
+    float:right;
+    padding-top: 3px;
+    padding-right: 5px;
+}
+.fa-envelope{
+    float: right;
+    margin-left: 400px;
+    
+}
+.fa-lock{
+    float:right;
+    margin-left: 400px;
+}
+.font{
+    font-size: 13px;
+    margin-left: 3px;
+}
+
+
